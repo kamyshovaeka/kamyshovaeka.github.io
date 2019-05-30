@@ -1,0 +1,92 @@
+@font-face{
+    font-family: '9945';
+    src: url("9945.ttf");
+}
+
+body{
+    text-align: center;
+    background-image: url("pics/notebook2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    font-family: sans-serif;
+    justify-content: center;
+    background-attachment: fixed;
+    min-width: 260px;
+}
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1, h2{
+    font-family: '9945';
+    color: white;
+    text-shadow: #db0000 3px 3px 0, #db0000 -3px -3px 0, 
+                 #db0000 -3px 3px 0, #db0000 3px -3px 0;
+}
+
+h1{
+    margin-top: 90px;
+    font-size: 90px;
+    margin-bottom: 0;
+    
+}
+
+h2{
+    margin-top: -20px;
+    font-size: 47px;
+}
+
+p{
+    width: 80%;
+    color: white;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+.but{
+    padding: 20px;
+    background-color: red;
+    color: white;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0 5px 0 #a30000;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin: 0 10px;
+}
+.buts{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+}
+br{
+    display: none;
+}
+@media(max-width: 1024px){
+    .buts{
+        display: block;
+        margin: 20px auto;
+    }
+    .but{
+        margin: 10px auto;
+    }
+    .b1{
+        display: block;
+    }
+}
+.but:hover{
+    background-color: #ff2b2b;
+}
+
+@media(max-width: 280px){
+    .b2{
+        display: block;
+    }
+}

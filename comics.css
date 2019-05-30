@@ -1,0 +1,131 @@
+@font-face{
+    font-family: '9945';
+    src: url("9945.ttf");
+}
+
+body{
+    background-image: url("pics/WhatsApp%20Image%202019-05-09%20at%2013.50.15.jpeg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    background-attachment: fixed;
+}
+h1{
+    font-family: '9945';
+    color: white;
+    text-shadow: #db0000 3px 3px 0, #db0000 -3px -3px 0, 
+                 #db0000 -3px 3px 0, #db0000 3px -3px 0; 
+}
+h2{
+    color: #ef500b;
+}
+.list{
+    width: 90vw;
+    min-width: 350px;
+    height: 100%;
+    margin: 20px auto;
+    background-image: url("pics/5adf0adbc97fa162f7426ab1.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    padding: 20px;
+}
+.img{
+    height: 400px;
+    width: 250px;
+    background-image: url("pics/392px-MTMTE1_cvrE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin: 20px;
+    margin-top: -0.0000001px;
+}
+.two{
+   background-image: url("pics/395px-MTMTE2_cvrB.jpg"); 
+}
+.three{
+    background-image: url("pics/395px-MTMTE3_cvrA.jpg"); 
+}
+p{
+    margin-bottom: auto;
+    min-width: 370px;
+}
+
+.char{
+    text-decoration: none;
+    color:#ef500b;
+    transition: 0.3s;
+}
+.but{
+    padding: 20px;
+    background-color: red;
+    color: white;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0 5px 0 #a30000;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin: 0 10px;
+}
+.buts{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.left{
+    text-align: left;
+}
+
+@media(max-width:1100px){
+    .buts{
+        display: block;
+    }
+    .but{
+        margin: 10px auto;
+    }
+    .fab{
+        margin-top: 15px;
+    }
+    .list{
+        padding-right: 30px;
+    }
+}
+
+b{
+    color: #f93f22;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.but:hover{
+    background-color: #ff2b2b;
+}
+.char:hover{
+    background-color: #ef500b;
+    color: white;
+}
+footer{
+    margin-top: 20px;
+    color: white;
+}
+
+.fab{
+    font-size: 60px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+}
+.fa-instagram{
+    padding: 10px 15px;
+}
+.fa-facebook-f{
+    padding: 10px 25px;
+}
+header{
+    text-align: left;
+}
